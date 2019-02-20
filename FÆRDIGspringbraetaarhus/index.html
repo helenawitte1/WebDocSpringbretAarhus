@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Webdok: Springbræt Aarhus</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script> 
+   
+
+</head>
+<body>
+    <div class="container">
+        <!--
+            <img class="logo" src="Billeder/sprinbrettet aarhus logo.png" alt="SpringbrætAarhus logo" style= "width: 60%" >
+        </div>
+-->
+    <section class="blooper">
+            <video id="myVideo">     
+                <source src="video/stopmotionpt1.mp4" type= "video/mp4">
+            </video>
+        </section>
+
+    <br>
+    
+<!--Informationsbokse-->    
+<div class="onClickTextOverImage1">
+    <img src="Billeder/house-icon.png" style="width:270px; display: block;">
+    <a href="#oranges1"> </a>
+    <div id="oranges1"> "En hverdag på Springbræt Aarhus byder på bevægelse og almen undervisning. Elevernes skolegang ligger typisk i tidsrummet 8.30-13.45 og starter ud med, at vi hver morgen mødes til en morgensamling, derefter går vi en powerwalk på omkring 15 minutter. Efter har almen undervisning med vægt på, at eleverne lærer redskaber til at begå sig.  Bevægelsen i skoledagen efter dette vil variere, da eleverne er medbestemmende i dagens aktiviteter."
+
+    </div> 
+</div>
+
+
+<div class="onClickTextOverImage1">
+    <img src="Billeder/mariehoene.png" style="width: 270px; display: block;">
+    <a href="#banana1"> </a>
+    <div id="banana1">  Vi har valgt at kalde vores form for idræt for Pædagogisk idræt. Alt for mange børn, unge og voksne mennesker oplever desværre at blive ‘valgt til sidst’ i forbindelse med idræt og bevægelse. Dette er vi MEGET imod. Derfor har vi valgt, at vi ikke kun spiller stikbold, rundbold, fodbold og alle de andre populære spil. Vi synes, at det er vigtigt, at eleverne præsenteres for forskellige og nye sportsgrene og vi ønsker med det at vise, at idræt STU er meget, meget andet end bare idræt. 
+
+    </div> 
+</div>
+
+<div class="onClickTextOverImage1">
+<img src="Billeder/play-icon.png" style="width:270px; display: block;">
+<a href="#helena1"> </a>
+<div id="helena1"> Klik og mød Kenneth fra Springbræt Aarhus  <div class="kenneth">  <a href="https://www.youtube.com/watch?v=Gnbpavqmpf4&feature=youtu.be"></a></div>
+
+</div>
+</div>
+
+<!--Billede-->  
+
+<img class="billede" src="Billeder/thumbnail.jpg" alt="SpringbrætAarhus">
+<div class="flex_citat1">
+
+        <p class="boks_citat1"> "Det er et andet miljø end det var i folkeskolen."</p>
+    
+    </div>
+<!--Statistik-->
+<br>
+
+<script>
+window.onscroll = function () {
+
+    var chart = new CanvasJS.Chart("chartContainer", {
+        animationEnabled: true,
+        theme: "light2",
+        title:{
+            text: "Unge med behov for STU i Midtjylland"
+        },
+        axisY:{
+            includeZero: false,
+            valueFormatString:"####",
+        },
+        axisX:{
+               valueFormatString:"####",
+            },
+        data: [{        
+            type: "line",
+            lineColor: "lightgreen",
+            markerType:"none", 
+            lineThickness: 5,
+            yValueFormatString: "$####.00",      
+            dataPoints: [
+                { x: 2007, y: 82 },
+                { x: 2008, y: 220 },
+                { x: 2009, y: 411 },
+                { x: 2010, y: 596 },
+                { x: 2011, y: 711 },
+                { x: 2012, y: 748 },
+                { x: 2013, y: 874 },
+                { x: 2014, y: 1001 },
+                { x: 2015, y: 1114 },
+                { x: 2016, y: 1198 },
+                { x: 2017, y: 1325 },
+            
+            ]
+        }]
+    });
+    chart.render();
+    
+    }
+    </script>
+    
+
+
+
+
+    <body>
+    <div id="chartContainer" style="height: 500px; width: 100%; padding-top: 90px; padding-bottom: 50px;"></div>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<img class="billede" src="Billeder/thumbnail1.jpg" alt="SprinbrætAarhus">
+
+
+<div class="flex_citat">
+
+    <p class="boks_citat"> "Hver dag skal gerne være en glæde. Det bliver den, når vi har det rart sammen og når vi laver noget, der er sjovt og meningsfuldt."</p>
+
+</div>
+
+
+
+   <div class="onClickTextOverImage">
+       <img src="Billeder/ikoner-brev2.png" style="width:240px; display: block;">
+       <a href="#oranges"> </a>
+       <div id="oranges"> Vi tilbyder undervisning til eleverne i at kunne klare sig så selvstændigt som muligt. Herunder hjælp til NemID, e-boks, SKAT og meget andet.
+       </div> 
+   </div>
+  
+
+   <div class="onClickTextOverImage">
+       <img src="Billeder/Ikoner-solskin.png" style="width: 200px; display: block;">
+       <a href="#banana"> </a>
+       <div id="banana"> Vi har fokus på, at eleverne er medbestemmende i, hvad de ønsker at blive bedre til, så de er bedre rustet til fremtiden.
+       </div> 
+   </div>
+
+   <div class="onClickTextOverImage">
+<img src="Billeder/diplom-ikon1.png" style="width:200px; display: block;">
+<a href="#helena"> </a>
+       <div id="helena"> Eleverne modtager hver især et individuelt kompetencebevis efter endt uddannelse.
+       </div> 
+   </div>
+
+
+
+    <section class="blooper2">
+            <video id="myVideo2">     
+                <source src="video/stopmotionpt2.mp4" type= "video/mp4">
+            </video>
+        </section>
+   ´
+
+</div>
+
+<script src="js/script.js"></script> 
+</div>
+</body>
+</html>
